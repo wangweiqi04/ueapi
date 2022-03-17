@@ -3,6 +3,7 @@ module.exports = {
   tagline: "让开发更轻松",
   url: "https://runletapp.github.io",
   baseUrl: "/",
+  deploymentBranch: "main",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
