@@ -1,7 +1,7 @@
 module.exports = {
   title: "Unreal接口文档",
   tagline: "让开发更轻松",
-  url: "https://wangweiqi04.github.io/",
+  url: "https://wangweiqi04.github.io",
   baseUrl: "/ueapi.github.io/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
