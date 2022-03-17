@@ -26,16 +26,19 @@ function Hero() {
           {siteConfig.tagline}
         </p>
 
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <AnchorLink
             className={clsx("button button--primary button--lg", styles.button)}
             href="#download"
           >
             Download
           </AnchorLink>
-        </div>
+        </div> */}
       </div>
 
+      {/* <video loop="" preload="metadata"  class="bg-video-html5 html-video" data-contentid="923053264" width="1512" height="850">
+        <source src="https://cdn2.unrealengine.com/homepage-opener-5a55a50aaa4c.mp4">Your browser does not support HTML5 video.</source>
+        </video> */}
       <Image img={screenshot} className={clsx("shadow-md", styles.image)} />
     </header>
   );

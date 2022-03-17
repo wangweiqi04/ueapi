@@ -1,7 +1,7 @@
 ---
 id: privacy
-title: 'Privacy Policy'
-sidebar_label: 'Privacy Policy'
+title: "Privacy Policy"
+sidebar_label: "Privacy Policy"
 ---
 
 ###### Version 1.1 — July 18, 2020

@@ -1,7 +1,7 @@
 ---
 id: device_assignment
-title: 'Device Assignment'
-sidebar_label: 'Device Assignment'
+title: "Device Assignment"
+sidebar_label: "Device Assignment"
 ---
 
 By default, the job is executed in the device in which you are connected. To define a different device, use the keys `where` and `whereCustom`.

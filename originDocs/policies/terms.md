@@ -1,7 +1,7 @@
 ---
 id: terms
-title: 'Terms of Service'
-sidebar_label: 'Terms of Service'
+title: "Terms of Service"
+sidebar_label: "Terms of Service"
 ---
 
 ###### Version 1.1 — July 18, 2020

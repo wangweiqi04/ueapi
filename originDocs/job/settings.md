@@ -1,7 +1,7 @@
 ---
 id: settings
-title: 'Settings'
-sidebar_label: 'Settings'
+title: "Settings"
+sidebar_label: "Settings"
 ---
 
 :::note

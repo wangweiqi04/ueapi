@@ -1,7 +1,7 @@
 ---
 id: run
-title: '@run'
-sidebar_label: '@run'
+title: "@run"
+sidebar_label: "@run"
 ---
 
 To run jobs you can use the command `@run`:

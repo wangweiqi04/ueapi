@@ -1,7 +1,7 @@
 ---
 id: config
-title: '@config'
-sidebar_label: '@config'
+title: "@config"
+sidebar_label: "@config"
 ---
 
 To add or remove jobs, you can run the following command:

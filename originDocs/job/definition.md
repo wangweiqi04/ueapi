@@ -1,7 +1,7 @@
 ---
 id: definition
-title: 'Definition'
-sidebar_label: 'Definition'
+title: "Definition"
+sidebar_label: "Definition"
 ---
 
 We use the YAML data-serialization language to configure jobs in Runlet. The job syntax block is relatively simple, and you can define a job in two ways:

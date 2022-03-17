@@ -1,7 +1,7 @@
 ---
 id: scheduling
-title: 'Scheduling'
-sidebar_label: 'Scheduling'
+title: "Scheduling"
+sidebar_label: "Scheduling"
 ---
 
 Users can schedule jobs with the `every` key when defining jobs. There are two valid syntaxes: cron-like format and human-readable.

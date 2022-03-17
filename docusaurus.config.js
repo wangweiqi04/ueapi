@@ -10,7 +10,7 @@ module.exports = {
   projectName: "runletapp.github.io",
   themeConfig: {
     colorMode: {
-      defaultMode: "light",
+      defaultMode: "dark",
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
@@ -29,9 +29,9 @@ module.exports = {
       },
       items: [
         {
-          to: "docs",
-          activeBasePath: "docs",
-          label: "文档",
+          to: "docs/gameframework/classes",
+          activeBasePath: "docs/gameframework",
+          label: "GameFramework",
           position: "left",
         },
       ],
@@ -63,8 +63,8 @@ module.exports = {
             //   to: "blog",
             // },
             {
-              label: "文档",
-              to: "docs",
+              label: "GameFramework",
+              to: "docs/gameframework/classes",
             },
             // {
             //   label: "Releases",
@@ -90,7 +90,7 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Runlet. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 海尔数字. All rights reserved.`,
     },
   },
   plugins: ["docusaurus-plugin-sass", "@docusaurus/plugin-ideal-image"],
@@ -99,28 +99,28 @@ module.exports = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        language: ["en", "zh"],
+        language: ["zh", "en"],
       },
     ],
   ],
+  i18n: {
+    defaultLocale: "zh",
+    locales: ["zh"],
+  },
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/runletapp/website/edit/main/",
+          // editUrl: "https://github.com/runletapp/website/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/runletapp/website/edit/main/",
+          // editUrl: "https://github.com/runletapp/website/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss"),
-        },
-        googleAnalytics: {
-          trackingID: "UA-132764481-1",
-          anonymizeIP: true,
         },
       },
     ],

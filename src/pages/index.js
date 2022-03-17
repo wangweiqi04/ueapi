@@ -19,12 +19,12 @@ function Home() {
     <Layout description={tagline}>
       <Hero />
 
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         <Features />
         <Download />
         <Resources />
         <FAQ />
-      </main>
+      </main> */}
     </Layout>
   );
 }

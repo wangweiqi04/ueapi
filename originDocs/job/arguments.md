@@ -1,7 +1,7 @@
 ---
 id: arguments
-title: 'Arguments'
-sidebar_label: 'Arguments'
+title: "Arguments"
+sidebar_label: "Arguments"
 ---
 
 Users can pass arguments to jobs. The job script is rendered in a template engine before executing it. Arguments can then be accessed as follows:

@@ -1,7 +1,7 @@
 ---
 id: signin
-title: '@signin'
-sidebar_label: '@signin'
+title: "@signin"
+sidebar_label: "@signin"
 ---
 
 To sign in to your account, run the following command that creates a unique link to sign in to your account.
