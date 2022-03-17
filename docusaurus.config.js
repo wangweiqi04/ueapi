@@ -1,14 +1,14 @@
 module.exports = {
   title: "Unreal接口文档",
   tagline: "让开发更轻松",
-  url: "https://runletapp.github.io",
+  url: "https://wangweiqi04.github.io/",
   baseUrl: "/",
-  deploymentBranch: "main",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  deploymentBranch: "main",
   favicon: "img/favicon.ico",
-  organizationName: "runletapp",
-  projectName: "runletapp.github.io",
+  organizationName: "wangweiqi04",
+  projectName: "ueapi.github.io",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",

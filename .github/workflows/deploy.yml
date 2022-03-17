@@ -35,6 +35,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: runletapp/runletapp.github.io
+          external_repository: wangweiqi04/ueapi.github.io
           publish_dir: ./build
           force_orphan: true
