@@ -6,8 +6,8 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "runletapp",
-  projectName: "runletapp.github.io",
+  organizationName: "wangweiqi04",
+  projectName: "ueapi",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
