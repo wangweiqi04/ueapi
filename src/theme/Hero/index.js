@@ -5,7 +5,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Image from "@theme/IdealImage";
 
-import screenshot from "@site/static/img/pages/light/homepage-screenshot.png";
+import screenshot from "@site/static/img/pages/light/homepage-screenshot2.png";
 import styles from "./styles.module.scss";
 
 function Hero() {
