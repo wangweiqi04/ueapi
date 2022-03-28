@@ -116,10 +116,10 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // editUrl: "https://github.com/runletapp/website/edit/main/",
         },
-        blog: {
-          showReadingTime: true,
-          // editUrl: "https://github.com/runletapp/website/edit/main/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // editUrl: "https://github.com/runletapp/website/edit/main/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.scss"),
         },

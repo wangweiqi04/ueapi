@@ -37,7 +37,7 @@ module.exports = {
     {
       type: "doc",
       label: "与Javascript交互",
-      id: "gameframework/uejs",
+      id: "gameframework/ue-js",
     },
   ],
 };
