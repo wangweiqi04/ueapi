@@ -34,6 +34,11 @@ module.exports = {
       label: "Variables",
       id: "gameframework/variables",
     },
+    {
+      type: "doc",
+      label: "与Javascript交互",
+      id: "gameframework/uejs",
+    },
   ],
 };
 
