@@ -18,9 +18,9 @@ function Hero() {
     <header id="hero" className={clsx("hero", styles.banner)}>
       <div className={clsx("shadow-md", styles.section)}>
         <div className={clsx("shadow-md", styles.sectionImgContainer)}>
-          <img
+          <Image
+            img={screenshot1}
             className={clsx("shadow-md", styles.sectionImg)}
-            src={screenshot1}
           />
         </div>
         <div className={clsx("shadow-md", styles.sectionContent)}>
@@ -36,9 +36,9 @@ function Hero() {
       </div>
       <div className={clsx("shadow-md", styles.section, styles.reverse)}>
         <div className={clsx("shadow-md", styles.sectionImgContainer)}>
-          <img
+          <Image
+            img={screenshot2}
             className={clsx("shadow-md", styles.sectionImg)}
-            src={screenshot2}
           />
         </div>
         <div className={clsx("shadow-md", styles.sectionContent)}>
@@ -57,9 +57,9 @@ function Hero() {
 
       <div className={clsx("shadow-md", styles.section)}>
         <div className={clsx("shadow-md", styles.sectionImgContainer)}>
-          <img
+          <Image
+            img={screenshot3}
             className={clsx("shadow-md", styles.sectionImg)}
-            src={screenshot3}
           />
         </div>
         <div className={clsx("shadow-md", styles.sectionContent)}>
