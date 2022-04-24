@@ -69,3 +69,40 @@
 .sectionHeadline {
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+
+    &.reverse {
+      flex-direction: column;
+
+      .sectionContent {
+        text-align: left;
+      }
+    }
+  }
+
+  .sectionImgContainer {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .sectionContent {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+  }
+
+  .sectionSub {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .sectionHeadline {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
