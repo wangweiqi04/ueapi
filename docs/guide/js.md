@@ -16,9 +16,9 @@ id: js
 
 `D3OS(type,content,callback)`
 
-Type: 为标识类型方便 ue 区分调用。
+Type: 为标识类型方便 D3OS 区分调用。
 
-Content: js 传递给 ue 的参数，一般为 json 格式。便于多参数传递。
+Content: js 传递给 D3OS 的参数，一般为 json 格式。便于多参数传递。
 
 Callback: 当 D3OS 处理完毕后的异步回调函数
 

@@ -155,7 +155,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td> UE操作界面删除Actor点击UE场景中鼠标操作模型通知H5更新界面(双方互调)H5修改参数操作UE场景模型</td>
+<tr><td> D3OS操作界面删除Actor点击D3OS场景中鼠标操作模型通知H5更新界面(双方互调)H5修改参数操作D3OS场景模型</td>
 <td>CGX_ModelOperaiton</td>
 <td>
 
@@ -217,7 +217,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td>键盘功能按钮点击,UE通知JSH5大纲视图界面隐藏点击</td>
+<tr><td>键盘功能按钮点击,D3OS通知JSH5大纲视图界面隐藏点击</td>
 <td>CGX_ViewHide</td>
 <td>
 
@@ -334,7 +334,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td>H5保存案例/发布场景按钮点击时:调用UE方法</td>
+<tr><td>H5保存案例/发布场景按钮点击时:调用D3OS方法</td>
 <td>CGX_SaveOrPulish</td>
 <td>
 
@@ -344,7 +344,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td>H5界面视角切换调用UE5方法</td>
+<tr><td>H5界面视角切换调用D3OS5方法</td>
 <td>CGX_SwitchView</td>
 <td>
 
@@ -356,7 +356,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td>H5界面VR按钮点击通知UE创建第一视角功能</td>
+<tr><td>H5界面VR按钮点击通知D3OS创建第一视角功能</td>
 <td>CGX_VRButtonClick</td>
 <td>
 
@@ -366,7 +366,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td>H5界面灯光按钮点击通知UE改变相关的参数</td>
+<tr><td>H5界面灯光按钮点击通知D3OS改变相关的参数</td>
 <td>CGX_LightButtonClick</td>
 <td>
 
@@ -376,7 +376,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td>H5界面灯光参数改变通知UE改变相关的参数</td>
+<tr><td>H5界面灯光参数改变通知D3OS改变相关的参数</td>
 <td>CGX_LightParameterChange</td>
 <td>
 
@@ -406,7 +406,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td>H5界面灯光默认参数按钮点击通知UE改变相关的参数</td>
+<tr><td>H5界面灯光默认参数按钮点击通知D3OS改变相关的参数</td>
 <td>CGX_LightDefaultClick</td>
 <td>
 
@@ -415,7 +415,7 @@ displayed_sidebar: api
 ```
 
 </td></tr>
-<tr><td>H5界面聚光灯按钮点击通知UE改变相关的参数</td>
+<tr><td>H5界面聚光灯按钮点击通知D3OS改变相关的参数</td>
 <td>CGX_SportLightButtonClick</td>
 <td>
 
@@ -424,7 +424,7 @@ displayed_sidebar: api
 ```
 
 </td></tr>
-<tr><td>H5界面聚光灯光参数改变通知UE改变相关的参数</td>
+<tr><td>H5界面聚光灯光参数改变通知D3OS改变相关的参数</td>
 <td>CGX_SportLightParameterChange</td>
 <td>
 
@@ -451,7 +451,7 @@ displayed_sidebar: api
 
 </td></tr>
 
-<tr><td>H5界面灯光默认参数按钮点击通知UE改变相关的参数</td>
+<tr><td>H5界面灯光默认参数按钮点击通知D3OS改变相关的参数</td>
 <td>CGX_SportLightDefaultClick</td>
 <td>
 
@@ -520,7 +520,7 @@ displayed_sidebar: api
 ```
 
 </td></tr>
-<tr><td> UE中点击Esc按钮 通知H5界面更新,取消编辑态或者删除路径通知UE关闭编辑太</td>
+<tr><td> D3OS中点击Esc按钮 通知H5界面更新,取消编辑态或者删除路径通知D3OS关闭编辑太</td>
 <td>  CGX_CancelEditor
 </td>
 <td>
