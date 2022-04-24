@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Unreal接口文档",
+  title: "D3OS接口文档",
   tagline: "让开发更轻松",
   url: "https://wangweiqi04.github.io",
   baseUrl: "/ueapi.github.io/",
@@ -22,76 +22,44 @@ module.exports = {
     image: "img/runlet.png",
     navbar: {
       hideOnScroll: true,
-      title: "Unreal接口文档",
+      title: "D3OS接口文档",
       logo: {
-        alt: "Unreal接口文档",
-        src: "img/logo.svg",
-        srcDark: "img/logo.svg",
+        alt: "D3OS接口文档",
+        src: "img/logo_dark.png",
+        srcDark: "img/logo_white.png",
       },
       items: [
         {
-          to: "docs/gameframework/classes",
-          activeBasePath: "docs/gameframework",
-          label: "GameFramework",
+          activeBasePath: "docs/guide",
+          label: "Guide",
           position: "left",
+          to: "docs/guide/js",
+        },
+        {
+          activeBasePath: "docs/api",
+          label: "API Reference",
+          position: "left",
+          to: "docs/api/classes",
         },
       ],
     },
     footer: {
       links: [
-        // {
-        //   title: "Runlet",
-        //   items: [
-        //     {
-        //       label: "FAQ",
-        //       to: "docs/faq",
-        //     },
-        //     {
-        //       label: "Terms of Service",
-        //       to: "docs/policies/terms",
-        //     },
-        //     {
-        //       label: "Privacy Policy",
-        //       to: "docs/policies/privacy",
-        //     },
-        //   ],
-        // },
         {
           title: "资源",
           items: [
-            // {
-            //   label: "Blog",
-            //   to: "blog",
-            // },
             {
-              label: "GameFramework",
-              to: "docs/gameframework/classes",
+              label: "Guide",
+              to: "docs/guide/js",
             },
-            // {
-            //   label: "Releases",
-            //   href: "https://github.com/runletapp/runlet/releases",
-            // },
+            {
+              label: "API Reference",
+              to: "docs/api/classes",
+            },
           ],
         },
-        // {
-        //   title: "Social",
-        //   items: [
-        //     {
-        //       label: "GitHub",
-        //       href: "https://github.com/runletapp/runlet",
-        //     },
-        //     {
-        //       label: "Gitter",
-        //       href: "https://gitter.im/runletapp",
-        //     },
-        //     {
-        //       label: "Twitter",
-        //       href: "https://twitter.com/runletapp",
-        //     },
-        //   ],
-        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 海尔数字. All rights reserved.`,
+      copyright: `Copyright ©海尔数字科技（上海）有限公司版权所有`,
     },
   },
   plugins: ["docusaurus-plugin-sass", "@docusaurus/plugin-ideal-image"],
@@ -114,12 +82,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // editUrl: "https://github.com/runletapp/website/edit/main/",
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // editUrl: "https://github.com/runletapp/website/edit/main/",
-        // },
         theme: {
           customCss: require.resolve("./src/css/custom.scss"),
         },

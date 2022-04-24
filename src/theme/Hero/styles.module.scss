@@ -1,20 +1,10 @@
 .banner {
   display: flex;
   flex-direction: column;
-  padding: 5rem 0 0;
+  padding: 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-
-  &:after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 25%;
-    background-color: var(--ifm-background-surface-color);
-  }
 }
 
 .logo {
@@ -39,8 +29,43 @@
 
 .image {
   z-index: 10;
-  width: 95%;
+  width: 100%;
   height: auto;
   max-width: 1440px;
   border-radius: 6px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+
+  &.reverse {
+    flex-direction: row-reverse;
+
+    .sectionContent {
+      text-align: left;
+    }
+  }
+}
+
+.sectionImgContainer {
+  width: 50%;
+  padding: 40px;
+}
+
+.sectionContent {
+  width: 50%;
+  text-align: right;
+  padding: 40px;
+}
+
+.sectionSub {
+  font-weight: 400;
+}
+
+.sectionHeadline {
+  font-weight: 600;
 }
