@@ -1,8 +1,8 @@
 ---
 id: js
+hide_title: true
+sidebar_label: 与 Javascript 交互
 ---
-
-# 与 Javascript 交互
 
 ## JS 调用 D3OS
 
